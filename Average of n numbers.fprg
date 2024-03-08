@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 03.15.54 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMDIuNDMgUE07MzA1OA=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMTUuNTQgUE07MTszMTcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Real" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <assign variable="sum" expression="0"/>
+            <declare name="stpr" type="Integer" array="False" size=""/>
+            <do expression="stpr != 1">
+                <declare name="a" type="Real" array="False" size=""/>
+                <output expression="&quot;Tell a number : &quot;" newline="True"/>
+                <input variable="a"/>
+                <assign variable="sum" expression="sum + a"/>
+                <assign variable="n" expression="n+1"/>
+                <output expression="&quot;Press 1 to stop : &quot;" newline="True"/>
+                <input variable="stpr"/>
+            </do>
+            <output expression="&quot;The average of &quot; &amp;n&amp; &quot; numbers = &quot; &amp;sum/n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

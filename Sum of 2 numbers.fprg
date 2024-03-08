@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 02.56.35 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDIuMzAuMTAgUE07MzA1Mg=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDIuNTYuMzUgUE07MTszMTc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <while expression="true">
+                <declare name="a" type="Real" array="False" size=""/>
+                <declare name="b" type="Real" array="False" size=""/>
+                <output expression="&quot;Tell two numbers : &quot;" newline="True"/>
+                <input variable="a"/>
+                <input variable="b"/>
+                <output expression="&quot;The sum of the two numbers : &quot;&amp;a+b" newline="True"/>
+                <output expression="&quot;Press 1 to stop else to continue&quot;" newline="True"/>
+                <declare name="c" type="Integer" array="False" size=""/>
+                <input variable="c"/>
+                <breakpoint expression="c == 1" always="False"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 03.50.15 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMzcuMzUgUE07MzA2Nw=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuNTAuMTUgUE07MTszMTY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Tell from where till where you want to find the odd numbers : &quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="a"/>
+            <output expression="&quot;The Odd Numbers are : &quot;" newline="True"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <if expression="i%2 == 0">
+                    <then/>
+                    <else>
+                        <output expression="i" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

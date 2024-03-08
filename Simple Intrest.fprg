@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 03.02.32 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDIuNTYuNDYgUE07MzA2OQ=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMDIuMzIgUE07MTszMTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Tell the Principle Amount,Rate and Time : &quot;" newline="True"/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <output expression="&quot;The Simple Intrest is : &quot; &amp;a*b*c/100" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

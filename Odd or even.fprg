@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 03.25.21 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMTUuNTYgUE07MzA2Ng=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMjUuMjEgUE07MTszMTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="stp" type="String" array="False" size=""/>
+            <do expression="stp != &quot;exit&quot;">
+                <declare name="a" type="Real" array="False" size=""/>
+                <output expression="&quot;Tell a number : &quot;" newline="True"/>
+                <input variable="a"/>
+                <if expression="a%2 == 0">
+                    <then>
+                        <output expression="&quot;The Number &quot; &amp;a&amp; &quot; is odd&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;The Number &quot; &amp;a&amp; &quot; is even&quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Write 'exit' to stop : &quot;" newline="True"/>
+                <input variable="stp"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

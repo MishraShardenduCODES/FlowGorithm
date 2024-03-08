@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="S.Mishra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-08 03.37.10 PM"/>
+        <attribute name="created" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMjUuMzcgUE07MzA2Ng=="/>
+        <attribute name="edited" value="Uy5NaXNocmE7REVTS1RPUC1GVERWMEo1OzIwMjQtMDMtMDg7MDMuMzcuMTAgUE07MTszMTY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="stp" type="Integer" array="False" size=""/>
+            <assign variable="stp" expression="10"/>
+            <while expression="stp != 1">
+                <output expression="&quot;Tell the length of 1st side : &quot;" newline="True"/>
+                <input variable="a"/>
+                <output expression="&quot;Tell the length of 2nd side : &quot;" newline="True"/>
+                <input variable="b"/>
+                <output expression="&quot;Tell the length of 3rd side : &quot;" newline="True"/>
+                <input variable="c"/>
+                <if expression="a+b &gt; c and c+b &gt; a and a+c &gt; b">
+                    <then>
+                        <output expression="&quot;This is a valid triangle and it can be formed &quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;This is not a valid triangle and it can't be formed &quot;" newline="True"/>
+                    </else>
+                </if>
+                <output expression="&quot;Press 1 to stop : &quot;" newline="True"/>
+                <input variable="stp"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
